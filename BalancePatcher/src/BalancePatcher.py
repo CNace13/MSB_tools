@@ -3,18 +3,14 @@
 """
   Author:        Connor Nace (PeacockSlayer)
   Date:          03/18/2021
-  Last Modified: 12/23/2020
+  Last Modified: 03/20/2021
   Description:
-    This script was written to aid in the development of mods for 
-    Mario Superstar Baseball for the Nintendo Gamecube (2005). 
-    Data that was mined from the game is found below. This script
-    formats the data into csv files and includes features to make
-    reading the data easier
+    This script was written to generate gecko codes and patch notes
+    for MSB
   Features:
-    -g generates CSV files for the data below
-    -c prints stats for character id(s) provided. Must be seperated by commas
-    -[p/b/f/m/l/u] prints only stats for pitching,batting,fielding,miscellaneous,chemistry links,unknown
-    -i prints additional info with stats
+    -m path to modified csv
+    -p Path to csv with the previous balance patch. If generated, balance path notes will be the delta between modded and previous csvs
+    -g generates patch notes for gecko codes
 
 """
 
@@ -96,7 +92,7 @@ def gen_balance_patch_notes(prev_char, modded_char, offset_list, gecko_file_name
         bpn_file.write('\n')
     bpn_file.close()
         
-def cmpr_lists(in_previous_version, in_modded_version, gecko_file):
+def cmpr_lists(in_previous_version, in_modded_version, gecko_file, generate_bpn):
     for prev_char in in_previous_version:
         for modded_char in in_modded_version:
             #Find char for each version
@@ -104,7 +100,8 @@ def cmpr_lists(in_previous_version, in_modded_version, gecko_file):
                 #Start comparing stats
                 diff_idx_list = prev_char.cmpr_stats(modded_char)
                 gen_gecko_codes(prev_char.addr, modded_char, diff_idx_list, gecko_file)
-                gen_balance_patch_notes(prev_char, modded_char, diff_idx_list, gecko_file)
+                if (generate_bpn):
+                    gen_balance_patch_notes(prev_char, modded_char, diff_idx_list, gecko_file)
                 
 
 if __name__ == "__main__":
@@ -132,5 +129,4 @@ if __name__ == "__main__":
         os.remove(gecko_file_name+cBPN_EXT)
     except OSError:
         pass
-    cmpr_lists(default_char_list, modified_char_list, gecko_file_name)
-    print()
+    cmpr_lists(default_char_list, modified_char_list, gecko_file_name, args.generate_patch_notes)

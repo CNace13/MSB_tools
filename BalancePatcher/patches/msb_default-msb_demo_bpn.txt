@@ -1,0 +1,172 @@
+Mario
+  Pitching Curve:  53->50 
+  Pitching Mystery 0x4:  50->60 
+  Fielding abilities:  0->12 (->ball dash, super catch)
+  Throwing Arm:  0->1 (right->left)
+  Vertical Trajectory:  0->2 (mid->push)
+  Non-Captain Star Pitch:  2->1 (fastball->curve)
+  Chemsitry Link:  86->99 (Pianta-Red Chemistry->Pianta-Red Chemistry)
+
+Luigi
+  Fielding abilities:  66->82 (super jump, wall jump->super jump, laser, wall jump)
+  Throwing Arm:  0->1 (right->left)
+  Vertical Trajectory:  0->2 (mid->push)
+  Chemsitry Link:  83->99 (Pianta-Red Chemistry->Pianta-Red Chemistry)
+
+DK
+  Throwing Arm:  0->1 (right->left)
+  Captain Star:  5->11 (dk->peach)
+  Non-Captain Star Pitch:  1->2 (curve->fastball)
+  Chemsitry Link:  55->10 (Pianta-Red Chemistry->Pianta-Red Chemistry)
+
+Diddy
+  Throwing Arm:  0->1 (right->left)
+  Vertical Trajectory:  0->1 (mid->pull)
+  Captain Star:  6->12 (diddy->daisy)
+  Non-Captain Star Pitch:  1->3 (curve->changeup)
+  Chemsitry Link:  46->102 (Pianta-Red Chemistry->Pianta-Red Chemistry)
+
+Peach
+  Throwing Arm:  0->1 (right->left)
+  Captain Star:  11->5 (peach->dk)
+
+Daisy
+  Throwing Arm:  0->1 (right->left)
+  Captain Star:  12->6 (daisy->diddy)
+
+Yoshi
+  Throwing Arm:  0->1 (right->left)
+
+Baby Mario
+  Throwing Arm:  0->1 (right->left)
+  Non-Captain Star Swing:  2->3 (grounder->line drive)
+
+Baby Luigi
+  Throwing Arm:  0->1 (right->left)
+  Non-Captain Star Swing:  2->3 (grounder->line drive)
+
+Bowser
+  Throwing Arm:  0->1 (right->left)
+  Vertical Trajectory:  1->0 (pull->mid)
+
+Wario
+  Throwing Arm:  0->1 (right->left)
+
+Waluigi
+  Non-Captain Star Swing:  3->2 (line drive->grounder)
+
+Koopa-Red
+  Throwing Arm:  0->1 (right->left)
+  Captain Star:  0->1 (->mario)
+
+Toad-Red
+  Throwing Arm:  0->1 (right->left)
+  Captain Star:  0->1 (->mario)
+
+Boo
+  Captain Star:  0->2 (->luigi)
+
+Toadette
+  Throwing Arm:  0->1 (right->left)
+  Captain Star:  0->2 (->luigi)
+
+Birdo
+  Throwing Arm:  0->1 (right->left)
+
+Monty
+  Throwing Arm:  0->1 (right->left)
+
+Paratroopa-Red
+  Throwing Arm:  0->1 (right->left)
+
+Pianta-Blue
+  Throwing Arm:  0->1 (right->left)
+  Batting Stance:  0->1 (left->right)
+
+Pianta-Red
+  Throwing Arm:  0->1 (right->left)
+  Batting Stance:  0->1 (left->right)
+
+Pianta-Yellow
+  Throwing Arm:  0->1 (right->left)
+  Batting Stance:  0->1 (left->right)
+
+Noki-Blue
+  Throwing Arm:  0->1 (right->left)
+
+Noki-Red
+  Throwing Arm:  0->1 (right->left)
+
+Noki-Green
+  Throwing Arm:  0->1 (right->left)
+  Captain Star:  0->10 (->birdo)
+  Non-Captain Star Swing:  3->1 (line drive->pop fly)
+
+Bro-Hammer
+  Throwing Arm:  0->1 (right->left)
+  Batting Stance:  0->1 (left->right)
+  Captain Star:  0->9 (->yoshi)
+
+Toadsworth
+  Throwing Arm:  0->1 (right->left)
+
+Toad-Blue
+  Throwing Arm:  0->1 (right->left)
+
+Toad-Yellow
+  Throwing Arm:  0->1 (right->left)
+  Captain Star:  0->3 (->wario)
+
+Toad-Green
+  Throwing Arm:  0->1 (right->left)
+  Captain Star:  0->4 (->waluigi)
+
+Toad-Purple
+  Throwing Arm:  0->1 (right->left)
+  Captain Star:  0->11 (->peach)
+
+Magikoopa-Blue
+  Throwing Arm:  0->1 (right->left)
+  Captain Star:  0->12 (->daisy)
+
+Magikoopa-Red
+  Throwing Arm:  0->1 (right->left)
+
+Magikoopa-Green
+  Throwing Arm:  0->1 (right->left)
+
+Magikoopa-Yellow
+  Throwing Arm:  0->1 (right->left)
+
+King Boo
+  Throwing Arm:  0->1 (right->left)
+
+Dixie
+  Throwing Arm:  0->1 (right->left)
+
+Goomba
+  Throwing Arm:  0->1 (right->left)
+
+Paragoomba
+  Throwing Arm:  0->1 (right->left)
+
+Koopa-Green
+  Throwing Arm:  0->1 (right->left)
+
+Paratroopa-Green
+  Throwing Arm:  0->1 (right->left)
+
+Shy Guy-Green
+  Captain Star:  0->3 (->wario)
+
+Shy Guy-Black
+  Captain Star:  0->10 (->birdo)
+
+Bro-Fire
+  Throwing Arm:  0->1 (right->left)
+  Batting Stance:  0->1 (left->right)
+
+Bro-Boomer
+  Throwing Arm:  0->1 (right->left)
+  Batting Stance:  0->1 (left->right)
+
