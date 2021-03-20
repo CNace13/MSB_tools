@@ -6,6 +6,8 @@ Collection of helpful scripts for modding MSB
 Generates gecko codes and patch notes for new balance patches
 
 ### How to use:
+run with `./BalancePatcher.py -m Path/To/Modified.csv`
+
 The tool compares two csv files, one with stats from the previous 
 version and one modified with new values. Tool will find all of the
 differences between the two files and generate gecko codes needed 
