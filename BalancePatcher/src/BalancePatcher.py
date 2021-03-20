@@ -28,6 +28,9 @@ def auto_int(x):
 DEFAULT_STATS_PATH = '../ref/msb_default.csv'
 STAT_INFO_PATH     = '../ref/stat_info.json'
 
+#Consts
+cCHEM_TABLE_START = 0x3b
+
 cGCF_EXT = '_gcf.txt'
 cBPN_EXT = '_bpn.txt'
 
@@ -73,6 +76,7 @@ def gen_balance_patch_notes(prev_char, modded_char, offset_list, gecko_file_name
 
     if len(offset_list) > 0:
         name = modded_char.name
+        modded_char.print_stats()
         bpn_file.write(name + '\n')
         for single_stat_idx in offset_list:
             stat_name = prev_char.stat_dict[single_stat_idx].name
@@ -84,7 +88,10 @@ def gen_balance_patch_notes(prev_char, modded_char, offset_list, gecko_file_name
             new_value_hrv = modded_char.stat_dict[single_stat_idx].human_readable_value
 
             if new_value_hrv != '':
-                new_value_hrv = '({}->{})'.format(prev_value_hrv, new_value_hrv)
+                if new_value_hrv >= prev_value_hrv:
+                    new_value_hrv = '({})'.format(new_value_hrv)
+                else:
+                    new_value_hrv = '({}->{})'.format(prev_value_hrv, new_value_hrv)
 
             delta_string = '  {}:  {}->{} {}\n'.format(stat_name, prev_val, new_value, new_value_hrv)
 

@@ -37,7 +37,7 @@ class StatParser:
             if int(str(entry['id']), 16) == offset:
                 #If this is a chemistry value
                 if offset == cCHEM_TABLE_START:
-                    human_readable_value = cCHAR_IDS[chem_link_char_id] + ' Chemistry'
+                    human_readable_value = cCHAR_IDS[chem_link_char_id]
                     return human_readable_value
                 #Get dict of valid strs and their values
                 for valid_str_dict in entry['vld_inputs']:
