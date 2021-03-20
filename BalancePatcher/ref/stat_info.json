@@ -1,0 +1,432 @@
+[
+    {
+      "id": 0,
+      "name": "Pitching Curve Ball Speed",
+      "type": "Single",
+      "min": 0,
+      "max": 255,
+      "vld_inputs": []
+    },
+    {
+      "id": "0x1",
+      "name": "Pitching Fast Ball Speed",
+      "type": "Single",
+      "min": 0,
+      "max": 255,
+      "vld_inputs": []
+    },
+    {
+      "id": "0x2",
+      "name": "Pitching Mystery 0x2",
+      "type": "Single",
+      "min": 0,
+      "max": 255,
+      "vld_inputs": []
+    },
+    {
+      "id": "0x3",
+      "name": "Pitching Curve",
+      "type": "Single",
+      "min": 0,
+      "max": 255,
+      "vld_inputs": []
+    },
+    {
+      "id": "0x4",
+      "name": "Pitching Mystery 0x4",
+      "type": "Single",
+      "min": 0,
+      "max": 255,
+      "vld_inputs": []
+    },
+    {
+      "id": "0x22",
+      "name": "Fielding abilities",
+      "type": "Multiple",
+      "min": 0,
+      "max": 63,
+      "vld_inputs": [
+        {
+          "curve": 32
+        },
+        {
+          "body check": 16
+        },
+        {
+          "ball dash": 8
+        },
+        {
+          "super catch": 4
+        },
+        {
+          "suction": 2
+        },
+        {
+          "tongue": 1
+        }
+      ]
+    },
+    {
+      "id": "0x23",
+      "name": "Fielding abilities",
+      "type": "Multiple",
+      "min": 0,
+      "max": 255,
+      "vld_inputs": [
+        {
+          "magic catch": 128
+        },
+        {
+          "super jump": 64
+        },
+        {
+          "quick throw": 32
+        },
+        {
+          "laser": 16
+        },
+        {
+          "sliding catch": 8
+        },
+        {
+          "clamber": 4
+        },
+        {
+          "wall jump": 2
+        },
+        {
+          "splat": 1
+        }
+      ]
+    },
+    {
+      "id": "0x25",
+      "name": "CharID",
+      "type": "single",
+      "min": 0,
+      "max": 54,
+      "vld_inputs": []
+    },
+    {
+      "id": "0x26",
+      "name": "Throwing Arm",
+      "type": "Single",
+      "min": 0,
+      "max": 1,
+      "vld_inputs": [
+        {
+          "right": 0
+        },
+        {
+          "left": 1
+        }
+      ]
+    },
+    {
+      "id": "0x27",
+      "name": "Batting Stance",
+      "type": "Single",
+      "min": 0,
+      "max": 1,
+      "vld_inputs": [
+        {
+          "left": 0
+        },
+        {
+          "right": 1
+        }
+      ]
+    },
+    {
+      "id": "0x28",
+      "name": "Nice Spot Size",
+      "type": "Single",
+      "min": 0,
+      "max": 255,
+      "vld_inputs": []
+    },
+    {
+      "id": "0x29",
+      "name": "Perfect Spot Size",
+      "type": "Single",
+      "min": 0,
+      "max": 255,
+      "vld_inputs": []
+    },
+    {
+      "id": "0x2A",
+      "name": "Slap Hit Power",
+      "type": "Single",
+      "min": 0,
+      "max": 255,
+      "vld_inputs": []
+    },
+    {
+      "id": "0x2B",
+      "name": "Charge Hit Power",
+      "type": "Single",
+      "min": 0,
+      "max": 255,
+      "vld_inputs": []
+    },
+    {
+      "id": "0x2C",
+      "name": "Bunting",
+      "type": "Single",
+      "min": 0,
+      "max": 255,
+      "vld_inputs": []
+    },
+    {
+      "id": "0x2D",
+      "name": "Vertical Trajectory",
+      "type": "Single",
+      "min": 0,
+      "max": 2,
+      "vld_inputs": [
+        {
+          "mid": 0
+        },
+        {
+          "pull": 1
+        },
+        {
+          "push": 2
+        }
+      ]
+    },
+    {
+      "id": "0x2E",
+      "name": "Horizontal Trajectory",
+      "type": "Single",
+      "min": 0,
+      "max": 2,
+      "vld_inputs": [
+        {
+          "mid": 0
+        },
+        {
+          "high": 1
+        },
+        {
+          "low": 2
+        }
+      ]
+    },
+    {
+      "id": "0x2F",
+      "name": "Speed",
+      "type": "Single",
+      "min": 0,
+      "max": 255,
+      "vld_inputs": []
+    },
+    {
+      "id": "0x30",
+      "name": "Throwing Arm Power",
+      "type": "Single",
+      "min": 0,
+      "max": 255,
+      "vld_inputs": []
+    },
+    {
+      "id": "0x31",
+      "name": "Character Class",
+      "type": "Single",
+      "min": 0,
+      "max": 4,
+      "vld_inputs": [
+        {
+          "balance": 0
+        },
+        {
+          "power": 1
+        },
+        {
+          "speed": 2
+        },
+        {
+          "technique": 3
+        }
+      ]
+    },
+    {
+      "id": "0x32",
+      "name": "Weight",
+      "type": "Single",
+      "min": 0,
+      "max": 255,
+      "vld_inputs": []
+    },
+    {
+      "id": "0x33",
+      "name": "Captain",
+      "type": "Single",
+      "min": 0,
+      "max": 1,
+      "vld_inputs": []
+    },
+    {
+      "id": "0x34",
+      "name": "Captain Star",
+      "type": "Single",
+      "min": 0,
+      "max": 12,
+      "vld_inputs": [
+        {
+          "mario": 1
+        },
+        {
+          "fireball": 1
+        },
+        {
+          "luigi": 2
+        },
+        {
+          "greenball": 2
+        },
+        {
+          "wario": 3
+        },
+        {
+          "garlic": 3
+        },
+        {
+          "waluigi": 4
+        },
+        {
+          "eggplant": 4
+        },
+        {
+          "dk": 5
+        },
+        {
+          "king banana": 5
+        },
+        {
+          "diddy": 6
+        },
+        {
+          "chimp banana": 6
+        },
+        {
+          "bowser": 7
+        },
+        {
+          "bullit bill": 7
+        },
+        {
+          "bj": 8
+        },
+        {
+          "jr bill": 8
+        },
+        {
+          "yoshi": 9
+        },
+        {
+          "green egg": 9
+        },
+        {
+          "birdo": 10
+        },
+        {
+          "weird egg": 10
+        },
+        {
+          "peach": 11
+        },
+        {
+          "flower": 11
+        },
+        {
+          "daisy": 12
+        },
+        {
+          "petal": 12
+        }
+      ]
+    },
+    {
+      "id": "0x35",
+      "name": "Non-Captain Star Swing",
+      "type": "Single",
+      "min": 0,
+      "max": 3,
+      "vld_inputs": [
+        {
+          "none": 0
+        },
+        {
+          "pop fly": 1
+        },
+        {
+          "grounder": 2
+        },
+        {
+          "line drive": 3
+        }
+      ]
+    },
+    {
+      "id": "0x36",
+      "name": "Non-Captain Star Pitch",
+      "type": "Single",
+      "min": 0,
+      "max": 3,
+      "vld_inputs": [
+        {
+          "none": 0
+        },
+        {
+          "curve": 1
+        },
+        {
+          "fastball": 2
+        },
+        {
+          "changeup": 3
+        }
+      ]
+    },
+    {
+      "id": "0x37",
+      "name": "In-game Batting",
+      "type": "Single",
+      "min": 0,
+      "max": 10,
+      "vld_inputs": []
+    },
+    {
+      "id": "0x38",
+      "name": "In-game Pitching",
+      "type": "Single",
+      "min": 0,
+      "max": 10,
+      "vld_inputs": []
+    },
+    {
+      "id": "0x39",
+      "name": "In-game Fielding",
+      "type": "Single",
+      "min": 0,
+      "max": 10,
+      "vld_inputs": []
+    },
+    {
+      "id": "0x3A",
+      "name": "In-game Running",
+      "type": "Single",
+      "min": 0,
+      "max": 10,
+      "vld_inputs": []
+    },
+    {
+      "id": "0x3B",
+      "name": "Chemsitry Link",
+      "type": "Single",
+      "min": 0,
+      "max": 255,
+      "vld_inputs": []
+    }
+  ]
