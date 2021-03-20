@@ -76,7 +76,6 @@ def gen_balance_patch_notes(prev_char, modded_char, offset_list, gecko_file_name
 
     if len(offset_list) > 0:
         name = modded_char.name
-        modded_char.print_stats()
         bpn_file.write(name + '\n')
         for single_stat_idx in offset_list:
             stat_name = prev_char.stat_dict[single_stat_idx].name
@@ -125,7 +124,7 @@ if __name__ == "__main__":
     previous_version_base = os.path.basename(previous_version_csv)
     modded_version_base   = os.path.basename(args.modified_csv)
 
-    gecko_file_name = '../patches/' + os.path.splitext(previous_version_base)[0]+'->'+ os.path.splitext(modded_version_base)[0]
+    gecko_file_name = '../patches/' + os.path.splitext(previous_version_base)[0]+'~'+ os.path.splitext(modded_version_base)[0]
     #patch_notes_name
     #Delete soon to be duplicate file
     try:
